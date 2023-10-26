@@ -1,0 +1,16 @@
+.banner {
+    padding: 0;
+    background: #baf5f1;
+    .img {
+        width: 100%;
+        height: 90vh;
+        @media screen and (max-width:766px) {
+            height: 70vh;
+        }
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}
