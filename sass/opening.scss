@@ -127,7 +127,7 @@
         animation: kereta 6s linear infinite;
         height: auto;
         @media screen and (max-width:766px) {
-            bottom: 7%;
+            bottom: 15%;
             z-index: 3;
         }
         img {
@@ -142,7 +142,7 @@
         @media screen and (max-width:766px) {
             height: 40%;
             position: absolute;
-            bottom: 0;
+            bottom: 8%;
             left: 0;
             right: 0;
         
