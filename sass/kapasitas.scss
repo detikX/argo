@@ -3,6 +3,24 @@
     @media screen and (max-width:766px) {
         padding: 52px 0 32px;
     }
+
+    .fast {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        &::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background: radial-gradient(circle, rgba(#eee,.3), rgba(#eee,1));
+        }
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
     .kertas {
         position: absolute;
         top: 0;
@@ -36,6 +54,7 @@
         margin-bottom: 16px;
         h3 {
             font-family: 'Poppins';
+            color: #474d4f;
         }
     }
     .argo-putih {
