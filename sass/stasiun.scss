@@ -1,3 +1,4 @@
+@import 'ticket';
 .stasiun {
     padding: 0;
     background: linear-gradient(to top, #baf5f1, #baf5f1);
@@ -18,6 +19,9 @@
         @media screen and (max-width:766px) {
             margin-top: -70vh;
         }
+    }
+    .tick {
+        background: white !important;
     }
     .hello {
         margin-bottom: 30vh;
