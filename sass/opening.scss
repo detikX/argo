@@ -1,6 +1,12 @@
 .opening {
     background: $blue;
 
+    .pj {
+        @media screen and (max-width:766px) {
+            margin-bottom: 40vh !important;
+        }
+    }
+
     @keyframes pesawat {
         0% {
           top: 17%;
