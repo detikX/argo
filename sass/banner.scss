@@ -1,21 +1,33 @@
 .banner {
     padding: 0;
-    background: #baf5f1;
+    background: linear-gradient(to top, #baf5f1, white 70%);
     .all {
         position: absolute;
         inset: 0;
-        .hp {
+        @media screen and (max-width:766px) {
+            inset: initial;
+            bottom: 7%;
+            left: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .monas {
             position: absolute;
-            right: 15%;
-            top: 10%;
+            right: 14%;
+            z-index: 2;
+            bottom: 26%;
             width: fit-content;
-            height: 70%;
+            height: 310px;
+            filter: drop-shadow(2px 6px 5px #ccc);
             @media screen and (max-width:766px) {
                 position: absolute;
-                right: 2%;
-                top: 30%;
+                right: 4%;
+                z-index: 2;
+                bottom: 12%;
                 width: fit-content;
-                height: 40%;
+                height: 200px;
+                filter: drop-shadow(2px 6px 5px #ccc);
             }
             img {
                 width: 100%;
@@ -23,18 +35,92 @@
                 object-fit: contain;
             }
         }
-        .kereta {
+        .hp {
             position: absolute;
-            bottom: 0%;
             right: 15%;
+            top: 10%;
             width: fit-content;
-            height: 50%;
+            height: 70%;
+            z-index: 2;
             @media screen and (max-width:766px) {
                 position: absolute;
-                bottom: 6%;
+                bottom: 8%;
+                height: 50%;
+                right: 3%;
+                width: fit-content;
+                top: initial;
+                z-index: 2;
+            }
+            @media screen and (max-width:375px) {
+                bottom: 10%;
+            }
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+        }
+        .rel {
+            position: absolute;
+            bottom: -17%;
+            height: 50%;
+            right: 14%;
+            width: 100%;
+            z-index: 2;
+            @media screen and (max-width:766px) {
+                bottom: 0%;
+                right: 3%;
+                height: auto;
+                
+            }
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+        }
+        @keyframes argobanner {
+            0%,100% {
+              bottom: 8%;   
+            }
+            
+            50% {
+              bottom: 8.2%;
+            }
+          }
+
+        .kebon {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            width: 100%;
+            height: auto;
+            @media screen and (max-width:766px) {
+                width: 120%;
+            }
+            img {
+                width:100%;
+                height: 100%;
+                object-fit: cover;
+
+            }
+        }
+        .kereta {
+            position: absolute;
+            bottom: 8%;
+            animation: argobanner 2s linear infinite;
+            right: 17%;
+            width: fit-content;
+            height: 50%;
+            z-index: 5;
+            @media screen and (max-width:766px) {
+                position: absolute;
+                bottom: 5%;
                 right: 6%;
-                width: 115%;
-                height: 54%;
+                width: 90%;
+                animation: initial;
+                height: auto;
             }
             img {
                 width: 100%;
@@ -50,8 +136,8 @@
             height: 120px;
             @media screen and (max-width:766px) {
                 position: absolute;
-                top: 30%;
-                right: 40%;
+                top: 45%;
+                right: 55%;
                 width: fit-content;
                 height: 76px;
             }
