@@ -11,6 +11,9 @@ $black: #343434;
   margin-bottom: 16px;
   min-height: 40vh;
   position: relative;
+  @media screen and (max-width:766px) {
+    min-height: 25vh;
+  }
   .wave {
     position: absolute;
     left: 0;
