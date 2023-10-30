@@ -141,18 +141,21 @@
         z-index: 2;
         border-right: 4px solid #e57a2f;
         @media screen and (max-width:766px) {
-            bottom: 16%;
+            bottom: 17%;
+            padding: 4px;
         }
         .yes {
             font-size: 1.2rem;
+            border-bottom: 1px solid;
+            font-style: italic;
             @media screen and (max-width:766px) {
-                font-size: .8rem;
+                font-size: .6rem;
             }
         }
         .bd {
             font-size: .8rem;
             @media screen and (max-width:766px) {
-                font-size: .5rem;
+                font-size: .4rem;
             }
         }
     }
