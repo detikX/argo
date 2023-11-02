@@ -51,8 +51,9 @@
         text-align: center;
         background-color: var(--accent-color);
         // background: #33006e;
+        filter: drop-shadow(2px 2px 4px black);
       
-        color: white;
+        color: #33006e;
         // font-weight: 700;
         padding: 4px;
         display: grid;
@@ -60,7 +61,8 @@
         position: relative;
         .border-bottom {
             font-size: 1.25rem;
-            // font-weight: 700;
+            font-weight: 700;
+
             border-bottom: 2px solid #eb5b00 !important;
             text-transform: uppercase;
         }
