@@ -114,24 +114,26 @@ $black: #343434;
 }
 
 
-
-.title, .name, .seat, .time {
-  text-transform: uppercase;
-  position: relative;
-  z-index: 3;
-  line-height: .8em;
-  font-weight: normal;
-  h2 {
-    font-size: .9em;
-    color: #525252;
-    margin: 0;
-   }
-  span {
-    font-size: .7em;
-    color: #a2aeae;
+.stasiun {
+  .title, .name, .seat, .time {
+    text-transform: uppercase;
+    position: relative;
+    z-index: 3;
+    line-height: .8em;
+    font-weight: normal;
+    h2 {
+      font-size: .9em;
+      color: #525252;
+      margin: 0;
+     }
+    span {
+      font-size: .7em;
+      color: #a2aeae;
+    }
   }
-}
 
+
+}  
 .title {
   margin: 2em 0 0 0;
   @media screen and (max-width:766px) {

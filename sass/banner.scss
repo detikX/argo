@@ -1,6 +1,40 @@
 .banner {
     padding: 0;
     background: linear-gradient(to top, #baf5f1, white 70%);
+    @keyframes tepar {
+        0%{
+            transform: rotate(0);   
+        }
+        
+        50% {
+            transform: rotate(4deg);
+        }
+        90% {
+            transform: rotate(4deg);
+        }
+        100% {
+            transform: rotate(2deg);
+        }
+      }
+    .title {
+        position: absolute;
+        left: 15%;
+        // animation: tepar 1s linear infinite;
+        top: 10%;
+        transform: rotate(0);
+        @media screen and (max-width:766px) {
+            top: 15%;
+        }
+        h2 {
+            font-size: 4.5rem;
+            line-height: 4rem;
+            @media screen and (max-width:766px) {
+                font-size: 2.5rem;
+                line-height: 2rem;
+            }
+        }
+    }
+
     .all {
         position: absolute;
         inset: 0;
