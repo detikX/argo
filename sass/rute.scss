@@ -20,7 +20,8 @@
         content: "";
         grid-column: 1;
         grid-row: 1 / span 20;
-        background: rgb(225, 225, 225);
+        // background: rgb(225, 225, 225);
+        background: #898989;
         border-radius: calc(var(--line-w) / 2);
       }
       
@@ -43,22 +44,31 @@
       
       /* date */
       ul li .date {
-        --dateH: 3rem;
-        height: var(--dateH);
+        // --dateH: 3rem;
+        // height: var(--dateH);
         margin-inline: calc(var(--inlineP) * -1);
       
         text-align: center;
         background-color: var(--accent-color);
+        // background: #33006e;
       
         color: white;
-        font-size: 1.25rem;
-        font-weight: 700;
-      
+        // font-weight: 700;
+        padding: 4px;
         display: grid;
         place-content: center;
         position: relative;
-      
-        border-radius: calc(var(--dateH) / 2) 0 0 calc(var(--dateH) / 2);
+        .border-bottom {
+            font-size: 1.25rem;
+            // font-weight: 700;
+            border-bottom: 2px solid #eb5b00 !important;
+            text-transform: uppercase;
+        }
+        .kota {
+            font-weight: 300;
+            font-size: 12px;
+        }
+        // border-radius: calc(var(--dateH) / 2) 0 0 calc(var(--dateH) / 2);
       }
       
       /* date flap */
@@ -160,7 +170,7 @@
           left: calc(100% + var(--col-gap) + var(--line-w) / 2);
         }
         ul li:nth-child(odd) .date {
-          border-radius: 0 calc(var(--dateH) / 2) calc(var(--dateH) / 2) 0;
+        //   border-radius: 0 calc(var(--dateH) / 2) calc(var(--dateH) / 2) 0;
         }
       }
       
