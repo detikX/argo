@@ -144,6 +144,15 @@
                     left: 5%;
                 }
             }
+            .gerbong {
+               
+                bottom: 18%;
+                right: 2%;
+                @media screen and (max-width:766px) {
+                    bottom: 16%;
+                    left: 72%;
+                }
+            }
             display: block;
             h4 {
                 // display: inline-block;
