@@ -1,3 +1,7 @@
+$(document).ready(function () {
+    AOS.init();
+  })
+
 $('.w-kelas').slick({
     dots: true,
     infinite: true,

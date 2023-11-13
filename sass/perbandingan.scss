@@ -1,0 +1,49 @@
+.perbandingan {
+    background: #bbf0f5;
+    @media screen and (max-width:768px) {
+        padding: 72px 0 32px;
+    }
+
+    .alls {
+        position: relative;
+        width: 100%;
+        height: 320px;
+    }
+    .gambar {
+        width: 100%;
+        position: absolute;
+        height: auto;
+        inset: 0;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+
+    .kereta {
+        position: absolute;
+        top: 30%;
+        left: 0;
+        width: 70%;
+        height: 80px;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+
+    .mobil-merah {
+        position: absolute;
+        left: 25%;
+        width: fit-content;
+        height: 40px;
+        bottom: 20%;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+}
