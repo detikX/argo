@@ -3,6 +3,8 @@ $('.w-kelas').slick({
     infinite: true,
     speed: 300,
     slidesToShow: 1,
+    // fade: true,
+
     slidesToScroll: 1,
     // adaptiveHeight: true,
 
