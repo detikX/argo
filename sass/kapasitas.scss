@@ -1,6 +1,18 @@
 .kapasitas {
     padding: 102px 0 32px;
     background-image: url('../img/kotak.png');
+    &::after {
+        content: "";
+        position: absolute;
+        bottom: -3%;
+        left: -5%;
+        right: -5%;
+        background: #cdcdcd;
+        height: 100px;
+        width: 120%;
+        transform: rotate(-5deg);
+        
+    }
     &::before {
         content: "";
         position: absolute;
@@ -89,6 +101,7 @@
         bottom: 3%;
         // animation: argox 1s linear infinite;
         right: -15%;
+        z-index: 8;
         width: 50vw;
         height: auto;
         @media screen and (max-width:766px) {
