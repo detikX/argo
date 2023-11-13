@@ -238,3 +238,31 @@ section {
         width: 120px;
     }
 }
+
+
+.slick {
+    &-next, &-prev {
+        z-index: 14 !important;
+        &::before {
+            font-family: 'fontAwesome' !important;
+            font-size: 42px !important;
+            color: #172d54 !important;
+            font-weight: 700 !important;
+            @media screen and (max-width:766px) {
+                font-size: 42px !important;
+            }
+        }
+    }
+    &-prev {
+        left: -12px !important;
+        &::before {
+            content:"\f104" !important;
+        }
+    }
+    &-next {
+        right: -12px !important;
+        &::before {
+            content:"\f105" !important;
+        }
+    }
+}

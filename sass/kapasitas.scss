@@ -10,7 +10,10 @@
         background: #cdcdcd;
         height: 100px;
         width: 120%;
-        transform: rotate(-5deg);
+        transform: rotate(-2deg);
+        @media screen and (max-width:768px) {
+            transform: rotate(-5deg);
+        }
         
     }
     &::before {
@@ -158,7 +161,7 @@
                 }
             }
             .gerbong {
-               
+               z-index: 8;
                 bottom: 18%;
                 right: 2%;
                 @media screen and (max-width:766px) {

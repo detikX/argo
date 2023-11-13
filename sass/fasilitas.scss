@@ -1,9 +1,49 @@
 .fasilitas {
     background: linear-gradient(to bottom, #cdcdcd, #f4f4f4);
-    
+    min-height: auto;
+    @media screen and (max-width:768px) {
+        padding: 32px 0 90px;
+    }
     h3 {
         color: #444;
         font-family: 'Poppins';
+    }
+
+     /* the slides */
+  .slick-slide {
+        margin: 0 27px;
+    }
+
+    /* the parent */
+    .slick-list {
+        margin: 0 -27px;
+    }
+
+    .w-kelas {
+        position: relative;
+        z-index: 12;
+    }
+
+    .kelas {
+        background: linear-gradient(to bottom, #fff, rgba(white,.7));
+        padding: 16px;
+        height: 360px;
+        border-radius: 24px;
+        @media screen and (max-width:768px) {
+            height: 520px;
+        }
+        h4 {
+            font-size: 1.4rem;
+            // font-weight: bold;
+            color: #f67524;
+        }
+        li {
+            margin: 0;
+        }
+        ul {
+            margin: 0;
+            padding: 4px 16px;
+        }
     }
     .all {
         position: absolute;
