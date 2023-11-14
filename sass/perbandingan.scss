@@ -1,5 +1,14 @@
 .perbandingan {
-    background: #bbf0f5;
+    // background: #bbf0f5;
+    background: url('../img/kotak.png') repeat;
+    &::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: auto;
+        background: linear-gradient(to top, #bbf0f5, rgba(#bbf0f5,.9), #bbf0f5);
+    }
     @media screen and (max-width:768px) {
         padding: 72px 0 32px;
     }
@@ -23,9 +32,9 @@
     }
 
     .hello {
-        background: rgba($color: white, $alpha: .9);
-        padding: 16px;
-        border-radius: 16px;
+        // background: rgba($color: white, $alpha: .9);
+        // padding: 16px;
+        // border-radius: 16px;
         // margin-bottom: 20vh;
     }
 
@@ -86,16 +95,16 @@
             height: 80px;
             display: inline-block;
             position: relative;
-            &::before {
-                content: "";
-                position: absolute;
-                left: 0;
-                top: 0;
-                bottom: 0;
-                width: 30px;
-                height: 80px;
-                background: linear-gradient(to right, #bbf0f5, transparent);
-            }
+            // &::before {
+            //     content: "";
+            //     position: absolute;
+            //     left: 0;
+            //     top: 0;
+            //     bottom: 0;
+            //     width: 30px;
+            //     height: 80px;
+            //     background: linear-gradient(to right, #bbf0f5, transparent);
+            // }
             @media screen and (max-width:768px) {
                 width: 45%;
             }
