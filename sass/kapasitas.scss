@@ -5,9 +5,9 @@
     }
     background-image: url('../img/kotak.png');
     p {
-        font-size: 1.1rem;
-        @media screen and (min-width:1600px) {
-            font-size: 1.2rem;
+        font-size: 1rem;
+        @media screen and (min-width:1800px) {
+            font-size: 1.1rem;
         }
     }
     &::after {
