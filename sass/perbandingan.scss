@@ -38,7 +38,7 @@
         border-radius: 16px;
         margin-bottom: 20vh;
         @media screen and (max-width:768px) {
-            margin-bottom: 30vh;
+            margin-bottom: 12vh;
         }
         p {
             @media screen and (min-width:1800px) {
@@ -179,12 +179,14 @@
 
     .bandung {
         position: absolute;
-        right: 0;
-        bottom: 72px;
-        width: 30vw;
+        right: -5vw;
+        bottom: 8px;
+        width: 40vw;
         height: auto;
         @media screen and (max-width:766px) {
             width: 80vw;
+            right: -15vw;
+            // bottom: 10px;
         }
         img {
             width: 100%;
@@ -198,6 +200,7 @@
         right: 30vw;
         bottom: 72px;
         width: 90px;
+        display: none;
         height: auto;
         @media screen and (max-width:766px) {
             // width: 80vw;
