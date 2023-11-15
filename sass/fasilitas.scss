@@ -1,5 +1,14 @@
 .fasilitas {
-    background: linear-gradient(to bottom, #cdcdcd, #f4f4f4);
+    // background: linear-gradient(to bottom, #cdcdcd, #f4f4f4);
+    background: url('../img/kotak.png') repeat;
+    &::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: auto;
+        background: linear-gradient(to bottom, #cdcdcd, rgba(#cdcdcd,.3), #cdcdcd);
+    }
     min-height: auto;
     @media screen and (max-width:768px) {
         padding: 32px 0 90px;
@@ -9,6 +18,8 @@
         text-align: center;
         font-family: 'Poppins';
         font-size: 2.2rem;
+        position: relative;
+        z-index: 13;
     }
 
      /* the slides */
