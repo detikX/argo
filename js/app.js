@@ -1,7 +1,13 @@
 $(document).ready(function () {
   AOS.init();
 })
+$(".hello p, .wrap-detikx p, .wrap-detikx .judul, .wrap-detikx .rutes").attr({ "data-aos": "fade-up", "data-aos-delay": "300", "data-aos-duration": "300", "data-aos-offset": "10", "data-aos-easing": "linear" })
 
+$(".wrap-detikx .cardWrap, .wrap-detikx .gambar").attr({ "data-aos": "zoom-in", "data-aos-delay": "300", "data-aos-duration": "300", "data-aos-offset": "10", "data-aos-easing": "linear" })
+
+$(".alls .img").attr({ "data-aos": "fade-right", "data-aos-delay": "300", "data-aos-duration": "300", "data-aos-offset": "10", "data-aos-easing": "linear" })
+
+// .cardWrap
 $('.w-kelas').slick({
   dots: true,
   infinite: true,
