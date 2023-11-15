@@ -1,6 +1,7 @@
 .perbandingan {
     // background: #bbf0f5;
     background: url('../img/kotak.png') repeat;
+    
     &::before {
         content: "";
         position: absolute;
@@ -36,6 +37,9 @@
         padding: 16px;
         border-radius: 16px;
         margin-bottom: 20vh;
+        @media screen and (max-width:768px) {
+            margin-bottom: 30vh;
+        }
         p {
             @media screen and (min-width:1800px) {
                 font-size: 1.1rem;
@@ -86,11 +90,14 @@
                 
                 // }
                 @media screen and (max-width:768px) {
-                    height: 30px !important;
+                    height: 24px !important;
                 }
         }
         .helping-data {
             width: 30% !important;
+            @media screen and (max-width:768px) {
+                width: 35% !important;
+            }
         }
     }
     .kereta,.mobil {
@@ -126,7 +133,7 @@
             height: 50px;
             @media screen and (max-width:768px) {
                 height: 40px;
-                width: 55%;
+                width: 60%;
             }
             // padding: 30px;
             // text-align: center;
@@ -142,6 +149,9 @@
                 transform: translate(-50%,-50%);
                 width: 80%;
                 text-align: center;
+                @media screen and (max-width:768px) {
+                    font-size: .8rem;
+                }
             }
         }
     }
@@ -161,6 +171,9 @@
 
     .w-50a {
         width: 35% !important;
+        @media screen and (max-width:768px) {
+            width: 45% !important;
+        }
 
     }
 
@@ -172,6 +185,23 @@
         height: auto;
         @media screen and (max-width:766px) {
             width: 80vw;
+        }
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+
+    .batagor {
+        position: absolute;
+        right: 30vw;
+        bottom: 72px;
+        width: 90px;
+        height: auto;
+        @media screen and (max-width:766px) {
+            // width: 80vw;
+            right: 70vw;
         }
         img {
             width: 100%;
