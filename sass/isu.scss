@@ -1,6 +1,6 @@
 .isu {
     background: #dd6452;
-    padding: 52px 0 72px;
+    padding: 52px 0 80px;
     .awanz {
         position: absolute;
         bottom: -16px;
@@ -19,6 +19,9 @@
     }
     p {
         color: #eee;
+        @media screen and (min-width:1800px) {
+            font-size: 1.2rem;
+        }
     }
     // &::before {
     //     content: "";
