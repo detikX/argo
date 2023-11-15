@@ -269,3 +269,48 @@ section {
         }
     }
 }
+
+
+.credit {
+    background: #bbf0f5;
+    min-height: auto;
+    border-top: 1px dotted;
+    .wrap-detikx {
+    }
+    .alls {
+        margin-bottom: 8px;
+        display: block;
+        text-align: center;
+        width: 80%;
+        // border: 1px solid;
+        margin: 0 auto 4px;
+        @media screen and (max-width:768px) {
+            width: 100%;
+            margin: 0 auto 16px;
+        }
+        .nam {
+            display: inline-block;
+            width: 45%;
+            text-align: left;
+            margin-left: 16px;
+            font-weight: 700;
+            font-size: 1rem;
+            @media screen and (max-width:768px) {
+                display: block;
+                margin-left: 0;
+                width: 100%;
+                text-align: center;
+            }
+        }
+        .jud {
+            display: inline-block;
+            width: 45%;
+            text-align: right;
+            @media screen and (max-width:768px) {
+                display: block;
+                text-align: center;
+                width: 100%;
+            }
+        }
+    }
+}
