@@ -1,16 +1,15 @@
 .isu {
-    background: #dd6452;
+    // background: #dd6452;
     padding: 52px 0 80px;
-    // &::before {
-    //     content: "";
-    //     position: absolute;
-    //     top: -24px;
-    //     left: 0;
-    //     right: 0;
-    //     height: 100px;
-    //     background: #cdcdcd;
-    //     transform: rotate(-2deg);
-    // }
+    background: url('../img/kotakx.png') repeat;
+    &::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(to top, #dd6452, rgba(#dd6452,.95),#dd6452);
+    }
     @keyframes ekg {
         0% {
           opacity: 0;
