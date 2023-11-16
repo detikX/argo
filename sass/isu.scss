@@ -1,6 +1,25 @@
 .isu {
     background: #dd6452;
     padding: 52px 0 80px;
+    .cobax {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100vh;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        &::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100vh;
+            background: linear-gradient(to bottom, #dd6452, rgba(#dd6452,.5));
+        }
+    }
     .awanz {
         position: absolute;
         bottom: -16px;
