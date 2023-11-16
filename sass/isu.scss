@@ -11,26 +11,43 @@
     //     background: #cdcdcd;
     //     transform: rotate(-2deg);
     // }
-    @keyframes dash {
-        from {
-          fill: 822;
+    @keyframes ekg {
+        0% {
+          opacity: 0;
         }
-        to {
-          fill: 0;
+        25% {
+          opacity: 1;
         }
-      }
-    .path {
-        stroke-dasharray: 1000;
-        stroke-dashoffset: 1000;
-        animation: dash 1s linear alternate infinite;
-      }
+        50% {
+          stroke-dashoffset: 2000;
+        }
+        99% {
+          opacity: 0;
+          stroke-dashoffset: 3000;
+        }
+        100% {
+          stroke-dashoffset: 1000;
+        }
+    }
+    
+        .ekg {
+            fill: none;
+            stroke: #fff;
+            stroke-width: 3;
+            stroke-linecap: round;
+            stroke-linejoin: miter;
+            opacity: 0;
+            stroke-dashoffset: 1000;
+            stroke-dasharray: 1000;
+            animation: ekg 4.5s linear forwards infinite;
+        }
       
      
     .detakx {
         position: absolute;
         left: 0;
         right: 0;
-        top: 36%;
+        top: 10%;
         width: 100%;
         height: auto;
         @media screen and (max-width:768px) {
