@@ -1,6 +1,29 @@
 .isu {
     background: #dd6452;
     padding: 52px 0 80px;
+    // &::before {
+    //     content: "";
+    //     position: absolute;
+    //     top: -24px;
+    //     left: 0;
+    //     right: 0;
+    //     height: 100px;
+    //     background: #cdcdcd;
+    //     transform: rotate(-2deg);
+    // }
+    .detakx {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 30%;
+        width: 100%;
+        height: auto;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
     .cobax {
         position: absolute;
         inset: 0;
