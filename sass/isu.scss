@@ -11,6 +11,21 @@
     //     background: #cdcdcd;
     //     transform: rotate(-2deg);
     // }
+    @keyframes dash {
+        from {
+          fill: 822;
+        }
+        to {
+          fill: 0;
+        }
+      }
+    .path {
+        stroke-dasharray: 1000;
+        stroke-dashoffset: 1000;
+        animation: dash 1s linear alternate infinite;
+      }
+      
+     
     .detakx {
         position: absolute;
         left: 0;
@@ -20,6 +35,9 @@
         height: auto;
         @media screen and (max-width:768px) {
             top: 28%;
+        }
+        svg {
+            width: 100%;
         }
         img {
             width: 100%;
