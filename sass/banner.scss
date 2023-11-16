@@ -213,10 +213,31 @@
                 bottom: 40%;
             }
         }
+
+        @keyframes chat {
+            0%,100% {
+              top: 15%;   
+            }
+            
+            50% {
+              top: 16%;
+            }
+          }
+
+          @keyframes chatmob {
+            0%,100% {
+              right: 53%;   
+            }
+            
+            50% {
+              right: 48%;
+            }
+          }
         .chat {
             position: absolute;
             top: 15%;
             right: 32%;
+            animation: chat 3s linear infinite;
             z-index: 5;
             width: fit-content;
             height: 120px;
@@ -225,6 +246,7 @@
                 top: 45%;
                 right: 55%;
                 width: fit-content;
+                animation: chatmob 2s linear infinite;
                 height: 76px;
             }
             img {
