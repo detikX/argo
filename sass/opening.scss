@@ -132,7 +132,7 @@
     @keyframes kereta {
         0% {
             transform: rotateY(0deg);
-            right: -960px;
+            right: -1440px;
         }
         50% {
             transform: rotateY(0deg);
@@ -144,7 +144,7 @@
         }
         100% {
             transform: rotateY(180deg);
-            right: -960px;
+            right: -1440px;
         }
     }
     .namas {
@@ -184,7 +184,7 @@
         bottom: 18%;
         right: -30%;
         width: 95%;
-        animation: kereta 15s linear infinite;
+        animation: kereta 20s linear infinite;
         height: auto;
         @media screen and (max-width:766px) {
             bottom: 15%;
