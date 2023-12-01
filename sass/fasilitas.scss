@@ -11,7 +11,7 @@
     }
     min-height: auto;
     @media screen and (max-width:768px) {
-        padding: 32px 0 90px;
+        padding: 32px 0 220px;
     }
     h3 {
         color: #444;
@@ -129,6 +129,7 @@
         right: 0;
         width: 50%;
         height: 100%;
+        z-index: 16;
         // height: 360px;
         .petugas {
             position: absolute;

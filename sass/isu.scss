@@ -50,7 +50,7 @@
         width: 100%;
         height: auto;
         @media screen and (max-width:768px) {
-            top: 28%;
+            top: 5%;
         }
         svg {
             width: 100%;
@@ -131,6 +131,7 @@
         // height: fit-content;
         display: block;
         width: 100%;
+        
         @media screen and (max-width:766px) {
             height: auto;
         }
