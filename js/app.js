@@ -1,5 +1,7 @@
 $(document).ready(function () {
   AOS.init();
+
+  $('img').attr('loading', 'lazy')
 })
 $(".hello p, .wrap-detikx p, .wrap-detikx .judul, .wrap-detikx .rutes").attr({ "data-aos": "fade-up", "data-aos-delay": "300", "data-aos-duration": "300", "data-aos-offset": "10", "data-aos-easing": "linear" })
 
