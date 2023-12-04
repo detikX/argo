@@ -131,6 +131,9 @@
         height: 100%;
         z-index: 16;
         // height: 360px;
+        @media screen and (max-width:768px) {
+            height: fit-content;
+        }
         .petugas {
             position: absolute;
             width: 200px;
