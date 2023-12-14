@@ -50,6 +50,28 @@
     .alls {
         position: relative;
         width: 100%;
+        .d-block {
+            border-bottom: 1px dashed #15545a;
+            margin-bottom: 16px;
+        }
+
+        li {
+            list-style-type: none;
+            margin-bottom: 16px;
+            i {
+                font-size: 2.5rem;
+                height: 50px;
+                width: 50px;
+                display: inline-block;
+                vertical-align: middle;
+            }
+
+        }
+        span {
+            vertical-align: middle;
+            display: inline-block;
+            width: 60%;
+        }
         // height: 100vh
     }
     .gambar {
@@ -103,7 +125,7 @@
     .kereta,.mobil {
         .img {
             width: 30%;
-            margin-left: -10%;
+            margin-left: -6%;
             height: 80px;
             display: inline-block;
             position: relative;
@@ -118,7 +140,7 @@
             //     background: linear-gradient(to right, #bbf0f5, transparent);
             // }
             @media screen and (max-width:768px) {
-                width: 45%;
+                width: 43%;
             }
             img {
                 width: 100%;
@@ -252,5 +274,35 @@
             object-fit: contain;
         }
     }
+
+    .datax {
+        display: inline-block;
+        width: 33%;
+        border: 1px solid;
+        position: relative;
+        ul {
+            list-style: none;
+        }
+        
+        &__img {
+            width: 100%;
+            height: auto;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+        }
+        &__name {
+            padding: 8px 16px;
+        }
+    }
     
+}
+
+.w-5x {
+    .img {
+
+        width: 50% !important;
+    }
 }
