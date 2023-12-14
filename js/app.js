@@ -11,6 +11,8 @@ $(".alls .img,.credit .jud, .alls .angka, .batagor").attr({ "data-aos": "fade-ri
 
 $(".credit .nam").attr({ "data-aos": "fade-left", "data-aos-delay": "300", "data-aos-duration": "300", "data-aos-offset": "10", "data-aos-easing": "linear" })
 
+$(".alls li").attr({ "data-aos": "fade-right", "data-aos-delay": "300", "data-aos-duration": "300", "data-aos-offset": "10", "data-aos-easing": "linear" })
+
 // .cardWrap
 $('.w-kelas').slick({
   dots: true,
