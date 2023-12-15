@@ -1710,11 +1710,13 @@ section {
     width: 45%; } }
 .perbandingan .datax ul {
   margin: 0;
-  background: linear-gradient(45deg, #87e8ef, rgba(255, 255, 255, 0.8));
+  background: linear-gradient(45deg, #ffb9b3, rgba(255, 255, 255, 0.8));
   border-radius: 16px;
   box-shadow: 2px 3px 4px #fff;
   padding: 8px 16px;
   list-style: none; }
+.perbandingan .datax ul.oren {
+  background: linear-gradient(45deg, #fbcdb1, rgba(255, 255, 255, 0.8)) !important; }
 .perbandingan .datax ul li {
   margin-bottom: 8px;
   padding: 8px 0;
@@ -1741,9 +1743,7 @@ section {
   width: 60%;
   height: 74px;
   /* border: 1px solid; */
-  border-right: 2 solid;
-  border-left: 1px solid transparent;
-  background: #fff;
+  background: linear-gradient(to right, #ffb9b3, transparent);
   z-index: -1; }
 @media screen and (max-width: 768px) {
   .perbandingan .datax__img.wo::before {
@@ -1758,9 +1758,7 @@ section {
   width: 60%;
   height: 74px;
   /* border: 1px solid; */
-  border-right: 2 solid;
-  border-left: 1px solid transparent;
-  background: white;
+  background: linear-gradient(to left, #fbcdb1, transparent);
   z-index: -1; }
 @media screen and (max-width: 768px) {
   .perbandingan .datax__img.go::before {
