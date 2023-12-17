@@ -367,19 +367,20 @@
         ul {
             margin: 0;
             // border: 1px solid;
-            background: linear-gradient(45deg, #ffb9b3, rgba(white,.8));
+            background: linear-gradient(45deg, #8ef0fb, rgba(255, 255, 255, 0.8));
             border-radius: 16px;
             // box-shadow: 2px 3px 4px #fff;
             padding: 8px 16px;
             list-style: none;
             &.oren {
-                background: linear-gradient(45deg, #fbcdb1, rgba(white,.8)) !important;
+                // background: linear-gradient(45deg, #fbcdb1, rgba(white,.8)) !important;
+                background: linear-gradient(45deg, #8ef0fb, rgba(255, 255, 255, 0.8));
             }
             li {
                 margin-bottom: 8px;
                 padding: 8px 0;
                 height: 82px;
-                border-bottom: 1px solid #333;
+                border-bottom: 1px dashed #666666;
                 @media screen and (max-width:768px) {
                     // height: 120px;
                     font-size: .85rem;
@@ -410,7 +411,7 @@
                     /* border: 1px solid; */
                     // border-right: 2 solid;
                     // border-left: 1px solid transparent;
-                    background: linear-gradient(to right, #ffb9b3, transparent);
+                    background: linear-gradient(to right, #8ef0fb, transparent);
                     z-index: -1;
                     @media screen and (max-width:768px) {
                         height: 60px;
@@ -432,7 +433,7 @@
                     /* border: 1px solid; */
                     // border-right: 2 solid;
                     // border-left: 1px solid transparent;
-                    background: linear-gradient(to left, #fbcdb1, transparent);
+                    background: linear-gradient(to left, #8ef0fb, transparent);
                     z-index: -1;
                     @media screen and (max-width:768px) {
                         height: 60px;
