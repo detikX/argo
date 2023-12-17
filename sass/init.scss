@@ -6,8 +6,8 @@ position: relative;
 height: 100%;
 font-family: 'Poppins';
 overflow-x: clip;
-h2, h3 {
-    font-family: 'Prompt';
+h2, h3, h4 {
+    font-family: 'Prompt' !important;
     font-weight: 700;
 }
 }
