@@ -3,15 +3,17 @@ $(document).ready(function () {
 
   $('img').attr('loading', 'lazy')
 })
-$(".hello p, .wrap-detikx p, .wrap-detikx .judul, .wrap-detikx .rutes").attr({ "data-aos": "fade-up", "data-aos-delay": "300", "data-aos-duration": "300", "data-aos-offset": "10", "data-aos-easing": "linear" })
+$(".datax li,.hello p, .wrap-detikx p, .wrap-detikx .judul, .wrap-detikx .rutes").attr({ "data-aos": "fade-up", "data-aos-delay": "300", "data-aos-duration": "300", "data-aos-offset": "10", "data-aos-easing": "linear" })
 
 $(".wrap-detikx .cardWrap, .wrap-detikx .gambar").attr({ "data-aos": "zoom-in", "data-aos-delay": "300", "data-aos-duration": "300", "data-aos-offset": "10", "data-aos-easing": "linear" })
 
 $(".alls .img,.credit .jud, .alls .angka, .batagor").attr({ "data-aos": "fade-right", "data-aos-delay": "300", "data-aos-duration": "300", "data-aos-offset": "10", "data-aos-easing": "linear" })
 
-$(".credit .nam").attr({ "data-aos": "fade-left", "data-aos-delay": "300", "data-aos-duration": "300", "data-aos-offset": "10", "data-aos-easing": "linear" })
+$(".credit .nam, .datax .go").attr({ "data-aos": "fade-left", "data-aos-delay": "300", "data-aos-duration": "300", "data-aos-offset": "10", "data-aos-easing": "linear" })
 
 $(".alls li").attr({ "data-aos": "fade-right", "data-aos-delay": "300", "data-aos-duration": "300", "data-aos-offset": "10", "data-aos-easing": "linear" })
+
+$(".datax .wo").attr({ "data-aos": "fade-right", "data-aos-delay": "300", "data-aos-duration": "300", "data-aos-offset": "10", "data-aos-easing": "linear" });
 
 // .cardWrap
 $('.w-kelas').slick({

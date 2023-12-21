@@ -6,8 +6,8 @@ position: relative;
 height: 100%;
 font-family: 'Poppins';
 overflow-x: clip;
-h2, h3 {
-    font-family: 'Prompt';
+h2, h3, h4 {
+    font-family: 'Poppins' !important;
     font-weight: 700;
 }
 }
@@ -169,11 +169,15 @@ section {
 
 #nav {
     // background: rgb(105 84 29 / 80%) !important;
+    background: rgba($color: #495057, $alpha: 1) !important;
     backdrop-filter: blur(11px);
     @media screen and (max-width: 766px) {
         backdrop-filter: initial;
-        // background: rgba(#000, .8) !important;
+        background: rgba($color: #495057, $alpha: 1) !important;
     }
+}
+.bg-blues {
+    background: #bbf0f5 !important;
 }
 
 .share_icon>a {
